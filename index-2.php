@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Chillclean - Cleaning Services </title>
+		<title>Desinfecto - Hygeine Matters </title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -15,7 +15,6 @@
 		<link href="assets/css/jquery.fancybox.css" rel="stylesheet" type="text/css">
 		<!--Main Slider-->
 		<link href="assets/css/settings.css" type="text/css" rel="stylesheet" media="screen">
-		<link href="assets/css/layers.css" type="text/css" rel="stylesheet" media="screen">
 		<link href="assets/css/layers.css" type="text/css" rel="stylesheet" media="screen">
 		<link href="assets/css/owl.carousel.css" type="text/css" rel="stylesheet" media="screen">
 		<link href="assets/css/style.css" rel="stylesheet">
@@ -53,14 +52,13 @@
 					<div class="row">
 						<div class="col-lg-4 logo col-md-12 d-flex align-items-center">
 
-							<a href="index-2.php"> <img src="assets/images/des.jpeg" alt="Logo" width="222" height="75"> </a>
 
-							<!-- <div class="navbar-header">
+							<div class="navbar-header">
 								<button type="button" class="navbar-toggle hidden-lg-up" data-toggle="collapse" data-target="#navbar-menu">
 									<i class="fa fa-bars"></i>
 								</button>
 
-							</div> -->
+							</div>
 						</div>
 						
 					</div>
@@ -69,21 +67,20 @@
 			<div class="main_nav stricky-header__top navbar-toggleable-md">
 			
 
-				<nav class="navbar navbar-default navbar-sticky bootsnav">
-				
-					<div class="container">
-					
+				<nav class="navbar navbar-default navbar-sticky bootsnav">				
+					<div class="container">					
 						<!-- Start Header Navigation -->
 
 						<!-- End Header Navigation -->
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						
+						<!-- Collect the nav links, forms, and other content for toggling -->						
 						<div class="collapse navbar-collapse" id="navbar-menu">
 						
 						
 						
 							<ul class="nav navbar-nav mobile-menu d-flex justify-content-between">
-								
+								<ul>
+								<a href="index-2.php"> <img src="assets/images/des.png" alt="Logo" width="150" height="55"> </a>
+								</ul>
 								<li>
 									<a href="index-2.php">clean.</a>
 									<span class="submenu-button"></span>

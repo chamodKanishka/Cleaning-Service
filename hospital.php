@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Chillclean - Cleaning Services </title>
+		<title>Desinfecto - Hygeine Matters</title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -53,7 +53,7 @@
 					<div class="row">
 						<div class="col-lg-4 logo col-md-12 d-flex align-items-center">
 
-							<a href="index-2.php"> <img src="assets/images/des.jpeg" alt="Logo" width="222" height="75"> </a>
+							<a href="index-2.php"> <img src="assets/images/des.png" alt="Logo" width="222" height="75"> </a>
 
 							<div class="navbar-header">
 								<button type="button" class="navbar-toggle hidden-lg-up" data-toggle="collapse" data-target="#navbar-menu">

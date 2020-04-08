@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Chillclean - Cleaning Services </title>
+		<title>Desinfecto - Hygeine Matters </title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -256,7 +256,7 @@
 										<!-- <div class="icon ion-ios-location"></div> -->
 										<div class="content">
 											
-                                            <img src="assets\images\place\art.png" alt="hospital" width="1000" height="300">
+                                            <img src="assets\images\place\art.jpg" alt="hospital" width="1500" height="300">
 										</div>
 									
 									

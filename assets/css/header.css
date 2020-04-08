@@ -9,7 +9,7 @@ nav.navbar.bootsnav {
 	background-color: #fff;
 	border: none;
 	/* border-bottom: solid 1px #e0e0e0; */
-	z-index: 9;
+	z-index: 0;
 	padding: 0px;
 }
 
@@ -38,6 +38,7 @@ nav.navbar.bootsnav ul.nav li.megamenu-fw > a:hover, nav.navbar.bootsnav ul.nav 
 nav.navbar.bootsnav ul.nav .dropdown-menu .dropdown-menu {
 	top: 0;
 	left: 100%;
+	right: 100%;
 }
 
 nav.navbar.bootsnav ul.nav ul.dropdown-menu > li > a {
