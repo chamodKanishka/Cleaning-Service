@@ -9,7 +9,7 @@ nav.navbar.bootsnav, .main_nav ul ul li, .footer_logo ul li a:hover, .points_ico
 }
 
 .middel-part__block::before, .middel-part__block .logo:after, .middel-part__block .logo, .main_nav ul ul li:hover {
-  background: #000;
+  background: #fff;
 }
 
 @media (max-width: 992px) {
@@ -22,7 +22,7 @@ nav.navbar.bootsnav, .main_nav ul ul li, .footer_logo ul li a:hover, .points_ico
 */
 .top-info__block li i, .next_btn_style .owl-controls .owl-nav .owl-prev:hover, .next_btn_style .owl-controls .owl-nav .owl-next:hover, .team_detail span, .counter_box .single-fact .counter, .gallery-heading h4 a, .bg_Testimonial .owl-carousel .owl-controls .owl-nav .owl-prev:hover, .bg_Testimonial .owl-carousel .owl-controls .owl-nav .owl-next:hover, .link_footer ul li a:hover, .footer-latest-news .single-news span, .footer-latest-news .single-news h5 a:hover, .more_btn__block, .bor_top a,
 .header_tran .top-bar-section .top-social-icon .icons-hover-black a:hover, .header_tran .top_loction ul li a:hover, .header_tran .top_loction ul li a i, .color {
-  color: #0b7a76;
+  color: #fff;
 }
 
 /*
@@ -30,7 +30,7 @@ nav.navbar.bootsnav, .main_nav ul ul li, .footer_logo ul li a:hover, .points_ico
 */
 .next_btn_style .owl-controls .owl-nav .owl-prev:hover, .next_btn_style .owl-controls .owl-nav .owl-next:hover, .bg_Testimonial .owl-carousel .owl-controls .owl-nav .owl-prev:hover, .bg_Testimonial .owl-carousel .owl-controls .owl-nav .owl-next:hover, .footer_logo ul li a:hover,
 .tparrows.tp-leftarrow:hover, .tparrows.tp-rightarrow:hover, .process_box {
-  border-color: #0b7a76;
+  border-color: #000;
 }
 
 /* INNER_PAGE */
@@ -47,21 +47,21 @@ a.btn.xplus-btn.pricing.active, .btn.xplus-btn, a.btn.xplus-btn.pricing:hover, .
 .ribbon.blue, .btn-default, .bar, .btn-default:hover, .color-switch .owl-controls .owl-page span, .tags li a, .shop .product-overlay div:hover,
 .nf-carousel-theme-top .owl-controls .owl-nav .owl-prev:hover, .nf-carousel-theme-top .owl-controls .owl-nav .owl-next:hover,
 .nf-carousel-theme .owl-controls .owl-nav .owl-prev, .nf-carousel-theme .owl-controls .owl-nav .owl-next {
-  background: #0b7a76;
+  background: #000;
 }
 
 .social_hover {
-  background: #0b7a76;
+  background: #000;
   /* The Fallback */
   background: rgba(71, 156, 24, 0.8);
 }
 
 .bullet_round:before, .second_righ:before {
-  box-shadow: 0 0 6px 6px #0b7a76;
+  box-shadow: 0 0 6px 6px #000;
 }
 
 .skinoneplancolor, div .secondary_bg {
-  background: #115d70;
+  background: #000;
 }
 
 /*

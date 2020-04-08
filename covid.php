@@ -82,7 +82,7 @@
 									
 								</li>
 								<li>
-									<a href="about3.php">Hospital & homes.</a>
+									<a href="">Hospital & homes.</a>
 									<span class="submenu-button"></span>
 									
 								</li>
@@ -146,7 +146,7 @@
 									<div class="col-lg-6">
 										<div class="form-field">
 											<!-- <input class="input-sm form-full" id="name" type="text" name="form-name" placeholder="Your Name"> -->
-                                        <img src="assets\images\place\cov.jpg" alt="hospital" width="1000" height="300">
+                                        <img src="assets\images\place\cov.png" alt="hospital" width="1000" height="300">
                                         </div>
 										<div class="form-field">
 											<!-- <input class="input-sm form-full" id="email" type="text" name="form-email" placeholder="Email" > -->

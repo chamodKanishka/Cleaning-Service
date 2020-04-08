@@ -82,7 +82,7 @@
 									
 								</li>
 								<li>
-									<a href="about3.php">Hospital & homes.</a>
+									<a href="hospital.php">Hospital & homes.</a>
 									<span class="submenu-button"></span>
 									
 								</li>
@@ -146,7 +146,7 @@
 									<div class="col-lg-6">
 										<div class="form-field">
 											<!-- <input class="input-sm form-full" id="name" type="text" name="form-name" placeholder="Your Name"> -->
-                                        <img src="assets\images\place\off.jpg" alt="hospital" width="1000" height="300">
+                                        <img src="assets\images\place\off.png" alt="hospital" width="1000" height="300">
                                         </div>
 										<div class="form-field">
 											<!-- <input class="input-sm form-full" id="email" type="text" name="form-email" placeholder="Email" > -->
@@ -201,13 +201,11 @@ Disinfection is almost a standard in hospitals and retirement homes
 			<section class="padding ptb-xs-40">
 			<div class="container">
 				<div class="row text-center mb-40 mb-xs-30">
-					<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+					<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-6">
 						<div class="section-title_home">
-							<h2>Our Team</h2>
+							
 							<span class="b-line"></span>
-							<p>
-								We have high qualify staff.
-							</p>
+							
 						</div>
 					</div>
 				</div>
@@ -217,7 +215,7 @@ Disinfection is almost a standard in hospitals and retirement homes
 										$con = mysqli_connect("localhost","root","");
 										mysqli_select_db($con,"clean");
 										
-										$query ="SELECT * FROM staff";
+										$query ="SELECT * FROM office";
 										$queryfire = mysqli_query($con, $query);
 										$num = mysqli_num_rows($queryfire);
 										
@@ -227,22 +225,22 @@ Disinfection is almost a standard in hospitals and retirement homes
 										{
 											
 										?>
-					<div class="col-lg-3 col-md-6">
+					<div class="col-lg-3 col-md-8">
 						<div class="team_box img-scale">
 							<div class="team_picher">
 								<figure>
-									<img src="<?php echo $products['image'];?>" alt="">
+									<img src="<?php echo $products['image'];?>" alt="" width="150" height="150>
 								</figure>
 							</div>
 							<div class="team_detail">
-								<h3><?php echo $products['name'];?></h3>
-								<span><?php echo $products['position'];?></span>
+								<h6><?php echo $products['name'];?></h6>
+								<!-- <span><?php echo $products['position'];?></span> -->
 							</div>
-							<div class="team_text">
+							<!-- <div class="team_text">
 								<p>
-								<?php echo $products['description'];?>
+								
 								</p>
-							</div>
+							</div> -->
 							<div class="social_team">
 								
 							</div>
@@ -287,83 +285,17 @@ Disinfection is almost a standard in hospitals and retirement homes
 							data-splitout="none"
 							data-responsive_offset="on" >
 								<div class="banner-text">
-									<span class="sub-text">we are here to help you</span>
-									<h2>The best cleaning company in the country</h2>
+									<span class="sub-text">check our special Covid-19 disinfection team for you organization</span>
+									<!-- <h2>The best cleaning company in the country</h2>
 									<p>
 										we are the best.
-									</p>
-									<a class="btn-text" href="about3.php"> Read More</a>
+									</p> -->
+									<!-- <a class="btn-text" href="about3.php"> Read More</a> -->
 								</div>
 							</div>
 						</li>
 						<!-- SLIDE  -->
-						<li data-index="rs-130" data-title="" data-description="">
-							<!-- MAIN IMAGE -->
-							<img src="assets/images/banner/slider2.jpg"  alt=""   class="rev-slidebg">
-							<!-- LAYERS -->
-							<!-- LAYER NR. 2 -->
-							<div class="tp-caption Newspaper-Title   tp-resizeme "
-							id="slide-130-layer-1"
-							data-x="['left','left','left','left']" data-hoffset="['100','50','50','30']"
-							data-y="['top','top','top','center']" data-voffset="['230','135','50','0']"
-							data-fontsize="['50','50','50','30']"
-							data-lineheight="['55','55','55','35']"
-							data-width="['700','700','700','420']"
-							data-height="none"
-							data-whitespace="normal"
-							data-transform_idle="o:1;"
-							data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
-							data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
-							data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-							data-mask_out="x:0;y:0;s:inherit;e:inherit;"
-							data-start="1000"
-							data-splitin="none"
-							data-splitout="none"
-							data-responsive_offset="on">
-								<div class="banner-text">
-									<span class="sub-text">we are here to help you</span>
-									<h2>Professional Cleaning Services Provider</h2>
-									<p>
-										we provide professional servise.
-									</p>
-									<a class="btn-text" href="about3.php"> Read More</a>
-								</div>
-							</div>
-						</li>
-						<!-- SLIDE  -->
-						<li data-index="rs-131">
-							<!-- MAIN IMAGE -->
-							<img src="assets/images/banner/slider1.jpg"  alt=""   class="rev-slidebg " >
-							<!-- LAYERS -->
-							<!-- LAYER NR. 2 -->
-							<div class="tp-caption Newspaper-Title   tp-resizeme "
-							id="slide-131-layer-1"
-							data-x="['left','left','left','left']" data-hoffset="['100','50','50','30']"
-							data-y="['top','top','top','center']" data-voffset="['230','135','50','0']"
-							data-fontsize="['50','50','50','30']"
-							data-lineheight="['55','55','55','35']"
-							data-width="['700','700','700','420']"
-							data-height="none"
-							data-whitespace="normal"
-							data-transform_idle="o:1;"
-							data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
-							data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
-							data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-							data-mask_out="x:0;y:0;s:inherit;e:inherit;"
-							data-start="1000"
-							data-splitin="none"
-							data-splitout="none"
-							data-responsive_offset="on">
-								<div class="banner-text">
-									<span class="sub-text">we are here to help you</span>
-									<h2>We Are Cleaning Manager Always at Your Service.</h2>
-									<p>
-										Get service & see the diffrence
-									</p>
-									<a class="btn-text" href="about3.php"> Read More</a>
-								</div>
-							</div>
-						</li>
+						
 						<!-- SLIDE  -->
 					</ul>
 					<div class="tp-bannertimer tp-bottom"></div>
@@ -383,10 +315,8 @@ Disinfection is almost a standard in hospitals and retirement homes
 								<span class="b-line l-left line-h"></span>
 							</div>
 							<!-- Contact FORM -->
-							<form class="contact-form " id="contact">
-								<!-- IF MAIL SENT SUCCESSFULLY -->
-								
-								<!-- END IF MAIL SENT SUCCESSFULLY -->
+							<form class="contact-form " id="contact" action="msg.php" method="post">
+							
 								<div class="row">
 									<div class="col-lg-6">
                                     <div class="form-field">
@@ -405,6 +335,18 @@ Disinfection is almost a standard in hospitals and retirement homes
 											<textarea class="form-full" id="message" rows="7" name="form-message" placeholder="Question" ></textarea>
                                         </div>
                                         <div>
+										<div class="form-field">
+										<div class="input-sm form-full">
+											<select id="servise">
+											<option value="Dropdown">Dropdown</option>
+											<option value="Hospital">Hospital</option>
+											<option value="Supermarket">Supermarket</option>
+											<option value="Office">Office</option>
+											<option value="Public place">Public place</option>
+											</select>
+										
+										</div>
+										</div>
                                         <input type="submit" id="submit" name="submit" value="SEND"/>
 										</div>
 									</div>
@@ -420,25 +362,26 @@ Disinfection is almost a standard in hospitals and retirement homes
 
 						<div class="col-lg-4 contact mt-sm-30 mt-xs-30">
 							<div class="headeing pb-20">
-								<h2>Contact Info</h2>
+								<h2>CALL US NOW</h2>
 								<span class="b-line l-left line-h"></span>
 							</div>
 							<div class="contact-info">
 
 								<ul class="info">
 									<li>
-										<div class="icon ion-ios-location"></div>
+										<!-- <div class="icon ion-ios-location"></div> -->
 										<div class="content">
-											<p>
-												123 Main Street, St. NW Ste,
-											</p>
-											<p>
-												1 Washington, DC,USA.
-											</p>
+										<h3>027203019</h3>
+										<h5>
+												9 AM – 10PM (6/7)</h5>
+										</div>
+										<div class="form-field">
+											<!-- <input class="input-sm form-full" id="email" type="text" name="form-email" placeholder="Email" > -->
+										
 										</div>
 									</li>
 
-									<li>
+									<!-- <li>
 										<div class="icon ion-android-call"></div>
 										<div class="content">
 											<p>
@@ -459,7 +402,7 @@ Disinfection is almost a standard in hospitals and retirement homes
 												http://admin@.com
 											</p>
 										</div>
-									</li>
+									</li> -->
 								</ul>
 								
 							</div>

@@ -4,13 +4,15 @@ mysqli_select_db($con,"clean");
 if(isset($_POST['submit']))
 {
 	$name1 = mysqli_real_escape_string($con, $_POST['form-name']);
-	$sub = mysqli_real_escape_string($con, $_POST['form-subject']);
-	$mail = mysqli_real_escape_string($con, $_POST['form-email']);
+	$name2 = mysqli_real_escape_string($con, $_POST['form-surname']);
+	$pho = mysqli_real_escape_string($con, $_POST['form-phone']);
 	$msg = mysqli_real_escape_string($con, $_POST['form-message']);
+	$mail = mysqli_real_escape_string($con, $_POST['form-email']);
+	$c_type =mysqli_real_escape_string($con, $_POST['servise']);
 	
 
 	
-		$query = "INSERT INTO contact (name, sub, email, msg) values ('".$name1."','".$sub."','".$mail."','".$msg."');";
+		$query = "INSERT INTO offer (name, surname, phone, email,question,c_type) values ('".$name1."','".$name2."','".$pho."','".$mail."','".$msg."','".$c_type."');";
 		if(mysqli_query($con, $query))
 			{
 				echo ("<script> alert('Successfully Registered.'); </script>");
@@ -22,8 +24,9 @@ if(isset($_POST['submit']))
 		}
 		
 else
-{   echo ("<script> location.href = '404.php'; </script>");
+{   
+	// echo ("<script> location.href = '404.php'; </script>");
 	echo "Unauthorized Access. Error Code : " . mysqli_connect_errno();
-	header("Refresh:1, url=404.php");
+	header("Refresh:1, url=index-2.php");
 }
 ?>

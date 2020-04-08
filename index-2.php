@@ -55,29 +55,32 @@
 
 							<a href="index-2.php"> <img src="assets/images/des.jpeg" alt="Logo" width="222" height="75"> </a>
 
-							<div class="navbar-header">
+							<!-- <div class="navbar-header">
 								<button type="button" class="navbar-toggle hidden-lg-up" data-toggle="collapse" data-target="#navbar-menu">
 									<i class="fa fa-bars"></i>
 								</button>
 
-							</div>
+							</div> -->
 						</div>
 						
 					</div>
 				</div>
 			</div>
 			<div class="main_nav stricky-header__top navbar-toggleable-md">
-				
+			
 
 				<nav class="navbar navbar-default navbar-sticky bootsnav">
 				
 					<div class="container">
+					
 						<!-- Start Header Navigation -->
 
 						<!-- End Header Navigation -->
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						
 						<div class="collapse navbar-collapse" id="navbar-menu">
+						
+						
 						
 							<ul class="nav navbar-nav mobile-menu d-flex justify-content-between">
 								
@@ -160,12 +163,16 @@
 							data-splitout="none"
 							data-responsive_offset="on" >
 								<div class="banner-text">
-									<span class="sub-text">we are here to help you</span>
-									<h2>The best cleaning company in the country</h2>
-									<p>
-										we are the best.
+									<span class="sub-text">clean and simple <br>
+clear budget and results<br>
+regular cleaning, disinfection and specialized experiences<br>
+crisis disinfecting, against Covid-19<br>
+</span>
+<p>
+CALL US 027203019
 									</p>
-									<a class="btn-text" href="about3.php"> Read More</a>
+									
+									<!-- <a class="btn-text" href="about3.php"> Read More</a> -->
 								</div>
 							</div>
 						</li>
@@ -194,12 +201,16 @@
 							data-splitout="none"
 							data-responsive_offset="on">
 								<div class="banner-text">
-									<span class="sub-text">we are here to help you</span>
-									<h2>Professional Cleaning Services Provider</h2>
-									<p>
-										we provide professional servise.
+								<span class="sub-text">clean and simple <br>
+								clear budget and results<br>
+									
+regular cleaning, disinfection and specialized experiences<br>
+crisis disinfecting, against Covid-19<br>
+</span>
+<p>
+CALL US 027203019
 									</p>
-									<a class="btn-text" href="about3.php"> Read More</a>
+									<!-- <a class="btn-text" href="about3.php"> Read More</a> -->
 								</div>
 							</div>
 						</li>
@@ -228,12 +239,16 @@
 							data-splitout="none"
 							data-responsive_offset="on">
 								<div class="banner-text">
-									<span class="sub-text">we are here to help you</span>
-									<h2>We Are Cleaning Manager Always at Your Service.</h2>
-									<p>
-										Get service & see the diffrence
+								<span class="sub-text">clean and simple <br>
+								clear budget and results<br>
+									
+regular cleaning, disinfection and specialized experiences<br>
+crisis disinfecting, against Covid-19<br>
+</span>
+<p>
+CALL US 027203019
 									</p>
-									<a class="btn-text" href="about3.php"> Read More</a>
+									<!-- <a class="btn-text" href="about3.php"> Read More</a> -->
 								</div>
 							</div>
 						</li>
@@ -249,12 +264,7 @@
 		<section class="padding ptb-xs-40">
 			<div class="container">
 				<div class="row pb-30">
-					<div class="col-md-4 d-flex align-items-center">
-						<div class="section_tit">
-							<h2></h2>
-							<span class="b-line l-left sm-l-center"></span>
-						</div>
-					</div>
+					
 
 					<div class="col-md-8 mt-xs-30 text-center text-md-left">
 						<p>
@@ -329,9 +339,7 @@
 						<div class="section-title_home">
 							<h2>Our Services</h2>
 							<span class="b-line"></span>
-							<p>
-								We provide high quality servce more than you expect
-							</p>
+							
 						</div>
 					</div>
 				</div>
@@ -379,15 +387,15 @@
 		<!-- Section -->
 		<div class="container contact-form pt-90 pt-xs-40 mt-up">
       <div class="row">
-        <div class="col-md-12 col-lg-12">
-          <h4>GET IN TOUCH</h4>
-          <p> Put message. Keep in touch. </p>
+        <div class="col-md-5 col-lg-10">
+		<div class="headeing pb-30">
+								<h2>Request for offer:</h2>
+								<span class="b-line l-left line-h"></span>
+							</div>
           <!-- Contact FORM -->
           <form class="contact-form mt-45" id="contact" action="msg.php" method="POST">           
             <!-- IF MAIL SENT SUCCESSFULLY -->
-            <div id="success">
-              <div role="alert" class="alert alert-success"> <strong>Thanks</strong> Your message has been sent. </div>
-            </div>
+            
             <!-- END IF MAIL SENT SUCCESSFULLY -->           
             <div class="row">
               <div class="col-md-6 col-lg-6">
@@ -406,8 +414,22 @@
                                         <div class="form-field">
 											<textarea class="form-full" id="message" rows="7" name="form-message" placeholder="Question" ></textarea>
                                         </div>
-										<input type="submit" id="submit" name="submit" value="SEND"/>
-									</div>
+										<div class="form-field">
+										<div class="input-sm form-full">
+											<select id="servise">
+											<option value="Dropdown">Dropdown</option>
+											<option value="Hospital">Hospital</option>
+											<option value="Supermarket">Supermarket</option>
+											<option value="Office">Office</option>
+											<option value="Public place">Public place</option>
+											</select>
+										
+										</div>
+										</div>
+										<div class="col-md-12 col-lg-12 mt-30">
+			  <input type="submit" value="SEND" name="submit">
+              </div>
+									
               </div>
             </div>
           </form>
@@ -427,31 +449,32 @@
 
 							<div class="headeing pb-30">
 								<h2>CALL US NOW</h2>
-								<span class="b-line l-left line-h"></span>
+								<!-- <span class="b-line l-left line-h"></span> -->
 							</div>
 							<!-- Contact FORM -->
 							<form class="contact-form " id="contact">
 								<!-- IF MAIL SENT SUCCESSFULLY -->
-								<div id="success">
+								<!-- <div id="success">
 									
-								</div>
+								</div> -->
 								<!-- END IF MAIL SENT SUCCESSFULLY -->
 								<div class="row">
 									<div class="col-lg-5">
 										<div class="form-field">
 											<!-- <input class="input-sm form-full" id="name" type="text" name="form-name" placeholder="Your Name"> -->
 										<h3>027203019</h3>
+										<h5>
+												9 AM – 10PM (6/7)</h5>
 										</div>
 										<div class="form-field">
 											<!-- <input class="input-sm form-full" id="email" type="text" name="form-email" placeholder="Email" > -->
-										<h5>
-												9 AM – 10PM (6/7)</h5>
+										
 										</div>
 										<div class="form-field">
 											<!-- <input class="input-sm form-full" id="sub" type="text" name="form-subject" placeholder="Subject"> -->
 										</div>
 									</div>
-									<div class="col-lg-2">
+									<div class="col-lg-1">
 										<div class="form-field">
 											<!-- <textarea class="form-full" id="message" rows="7" name="form-message" placeholder="Your Message" ></textarea> -->
 										</div>
@@ -475,12 +498,12 @@
 								<!-- <span class="b-line l-left line-h"></span> -->
 							</div>
 
-							<section class="padding ptb-xs-40">
-			<div class="container">
-				
+									<section class="padding ptb-xs-40">
+											<div class="container">
+												
 
-				<div class="row">
-				<?php
+										<div class="row">
+										<?php
 										$con = mysqli_connect("localhost","root","");
 										mysqli_select_db($con,"clean");
 										
@@ -494,27 +517,27 @@
 										{
 											
 										?>
-					<div class="col-lg-2 col-md-4">
-						<div class="team_box img-scale">
-							<div class="team_picher">
-								<figure>
-									<img src="<?php echo $products['image'];?>" alt="" width ="100" height="80">
-								</figure>
-							</div>
-							
-							<div  width="200" height="80" border="1px solid blue">
-								<p><?php echo $products['name'];?></P>
-							</div>
-						</div>
-					</div>
-					<?php
-										}}
-										?>
+												<div class="col-lg-2 col-md-2">
+													<div class="team_box img-scale">
+														<div class="team_picher">
+															<figure>
+																<img src="<?php echo $products['image'];?>" alt="" width ="100" height="80">
+															</figure>
+														</div>
+														
+														<div  width="200" height="80" border="1px solid blue">
+															<p><?php echo $products['name'];?></P>
+														</div>
+													</div>
+												</div>
+												<?php
+																	}}
+																	?>
 
-				</div>
+											</div>
 
-			</div>
-        </section>
+										<!-- </div> -->
+									</section>
 								</div>
 							</form>
 

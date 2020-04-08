@@ -82,7 +82,7 @@
 									
 								</li>
 								<li>
-									<a href="about3.php">Hospital & homes.</a>
+									<a href="hospital.php">Hospital & homes.</a>
 									<span class="submenu-button"></span>
 									
 								</li>
@@ -140,7 +140,7 @@
 								<span class="b-line l-left line-h"></span>
 							</div>
 							<!-- Contact FORM -->
-							<form class="contact-form " id="contact">
+							<form class="contact-form " id="contact" action="msg.php" method="post">
 								<!-- IF MAIL SENT SUCCESSFULLY -->
 								
 								<!-- END IF MAIL SENT SUCCESSFULLY -->
@@ -161,6 +161,19 @@
                                         <div class="form-field">
 											<textarea class="form-full" id="message" rows="7" name="form-message" placeholder="Question" ></textarea>
                                         </div>
+										<div class="form-field">
+										<div class="input-sm form-full">
+											<select id="servise">
+											<option value="Dropdown">Dropdown</option>
+											<option value="Hospital">Hospital</option>
+											<option value="Supermarket">Supermarket</option>
+											<option value="Office">Office</option>
+											<option value="Public place">Public place</option>
+											</select>
+										
+										</div>
+										</div>
+	
                                         <input type="submit" id="submit" name="submit" value="SEND"/>
 									</div>
 									<!-- <div class="col-lg-6">
@@ -182,25 +195,25 @@
 
 						<div class="col-lg-4 contact mt-sm-30 mt-xs-30">
 							<div class="headeing pb-20">
-								<h2>Contact Info</h2>
+								<h2>CALL US NOW</h2>
 								<span class="b-line l-left line-h"></span>
 							</div>
 							<div class="contact-info">
 
 								<ul class="info">
 									<li>
-										<div class="icon ion-ios-location"></div>
+										<!-- <div class="icon ion-ios-location"></div> -->
 										<div class="content">
-											<p>
-												123 Main Street, St. NW Ste,
-											</p>
-											<p>
-												1 Washington, DC,USA.
-											</p>
+										<h3>027203019</h3>
+										</div>
+										<div class="form-field">
+											<!-- <input class="input-sm form-full" id="email" type="text" name="form-email" placeholder="Email" > -->
+										<h5>
+												9 AM – 10PM (6/7)</h5>
 										</div>
 									</li>
 
-									<li>
+									<!-- <li>
 										<div class="icon ion-android-call"></div>
 										<div class="content">
 											<p>
@@ -221,7 +234,7 @@
 												http://admin@.com
 											</p>
 										</div>
-									</li>
+									</li> -->
 								</ul>
 								
 							</div>
