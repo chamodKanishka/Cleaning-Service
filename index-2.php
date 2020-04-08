@@ -75,20 +75,15 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->						
 						<div class="collapse navbar-collapse" id="navbar-menu">
 						
-						
+						<a href="index-2.php"> <img src="assets/images/des.png" alt="Logo" width="180" height="90"> </a>
 						
 							<ul class="nav navbar-nav mobile-menu d-flex justify-content-between">
-								<ul>
-								<a href="index-2.php"> <img src="assets/images/des.png" alt="Logo" width="150" height="55"> </a>
-								</ul>
 								<li>
 									<a href="index-2.php">clean.</a>
-									<span class="submenu-button"></span>
 									
 								</li>
 								<li>
 									<a href="hospital.php">Hospital & homes.</a>
-									<span class="submenu-button"></span>
 									
 								</li>
 								<li>

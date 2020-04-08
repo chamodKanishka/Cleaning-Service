@@ -48,12 +48,11 @@
 		<!-- HEADER -->
 		<header>
 			
-			<div class="middel-part__block">
+		<div class="middel-part__block">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-4 logo col-md-12 d-flex align-items-center">
 
-							<a href="index-2.php"> <img src="assets/images/des.png" alt="Logo" width="222" height="75"> </a>
 
 							<div class="navbar-header">
 								<button type="button" class="navbar-toggle hidden-lg-up" data-toggle="collapse" data-target="#navbar-menu">
@@ -71,10 +70,11 @@
 				<nav class="navbar navbar-default navbar-sticky bootsnav">
 					<div class="container">
 						<!-- Start Header Navigation -->
-
+	
 						<!-- End Header Navigation -->
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="navbar-menu">
+						<a href="index-2.php"> <img src="assets/images/des.png" alt="Logo" width="180" height="90"> </a>
 							<ul class="nav navbar-nav mobile-menu d-flex justify-content-between">
 								<li>
 									<a href="index-2.php">clean.</a>
