@@ -189,7 +189,6 @@
 					<div class="col-sm-12">
 						<div class="heading-box ">
 							<h2><span>Our</span> Pricing</h2>
-							<span class="b-line line-h"></span>
 						</div>
 					</div>
 				</div>
@@ -325,7 +324,6 @@
 				<div class="row pb-30 text-center">
 					<div class="col-sm-12 mb-20">
 						<h2><span>Our</span> Pricing</h2>
-						<span class="b-line"></span>
 					</div>
 				</div>
 

@@ -135,7 +135,6 @@
 
 							<div class="headeing pb-30">
 								
-								<!-- <span class="b-line l-left line-h"></span> -->
 							</div>
 							<!-- Contact FORM -->
 							<form class="contact-form " id="contact">
@@ -169,7 +168,6 @@
 						<div class="col-lg-4 contact mt-sm-30 mt-xs-30">
 							<div class="headeing pb-20">
 								<!-- <h2>Contact Info</h2>
-								<span class="b-line l-left line-h"></span> -->
 							</div>
 							<div class="contact-info">
 
@@ -208,7 +206,6 @@
 
 							<div class="headeing pb-30">
 								
-								<!-- <span class="b-line l-left line-h"></span> -->
 							</div>
 							<!-- Contact FORM -->
 							<form class="contact-form " id="contact">
@@ -247,7 +244,6 @@
 						<div class="col-lg-4 contact mt-sm-30 mt-xs-30">
 							<div class="headeing pb-20">
 								<!-- <h2>Contact Info</h2>
-								<span class="b-line l-left line-h"></span> -->
 							</div>
 							<div class="contact-info">
 
@@ -280,7 +276,6 @@
 
 							<div class="headeing pb-30">
 								<h2>CALL US NOW</h2>
-								<span class="b-line l-left line-h"></span>
 							</div>
 							<!-- Contact FORM -->
 							<form class="contact-form " id="contact">
@@ -325,7 +320,6 @@
 								<div class="row">
 								<h2>Where can you expect us?</h2>
 								<div>
-								<!-- <span class="b-line l-left line-h"></span> -->
 							</div>
 
 							<section class="padding ptb-xs-40">

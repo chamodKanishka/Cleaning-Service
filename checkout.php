@@ -200,7 +200,6 @@
 										<div class="check_form_left common_input">
 											<div class="heading-box pb-30">
 												<h2><span>Billing</span> Address</h2>
-												<span class="b-line l-left"></span>
 											</div>
 
 											<div class="row">
@@ -266,8 +265,6 @@
 										<div class="check_form_right bg-color light-color">
 											<div class="heading-box pb-15 ">
 												<h2><span>your</span> order</h2>
-												<span class="b-line l-left secondary_bg"></span>
-
 											</div>
 
 											<div class="product_order">

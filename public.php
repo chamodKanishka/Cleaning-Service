@@ -135,7 +135,6 @@
 
 							<div class="headeing pb-30">
 								
-								<!-- <span class="b-line l-left line-h"></span> -->
 							</div>
 							<!-- Contact FORM -->
 							<form class="contact-form " id="contact">
@@ -169,7 +168,6 @@
 						<div class="col-lg-4 contact mt-sm-30 mt-xs-30">
 							<div class="headeing pb-20">
 								<!-- <h2>Contact Info</h2>
-								<span class="b-line l-left line-h"></span> -->
 							</div>
 							<div class="contact-info">
 
@@ -204,7 +202,6 @@ Disinfection is almost a standard in hospitals and retirement homes
 					<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
 						<div class="section-title_home">
 							
-							<span class="b-line"></span>
 							
 						</div>
 					</div>
@@ -312,7 +309,6 @@ Disinfection is almost a standard in hospitals and retirement homes
 
 							<div class="headeing pb-30">
 								<h2>Request for offer:</h2>
-								<span class="b-line l-left line-h"></span>
 							</div>
 							<!-- Contact FORM -->
 							<form class="contact-form " id="contact" action="msg.php" method="post">
@@ -340,7 +336,7 @@ Disinfection is almost a standard in hospitals and retirement homes
 										<div class="form-field">
 										<div class="input-sm form-full">
 											<select id="servise">
-											<option value="Dropdown">Dropdown</option>
+											<option value="Dropdown">Select...</option>
 											<option value="Hospital">Hospital</option>
 											<option value="Supermarket">Supermarket</option>
 											<option value="Office">Office</option>
@@ -358,16 +354,20 @@ Disinfection is almost a standard in hospitals and retirement homes
 						</div>
 
 						<div class="col-lg-4 contact mt-sm-30 mt-xs-30">
-							<div class="headeing pb-20">
-								<h2>CALUS NOW</h2>
-								<span class="b-line l-left line-h"></span>
+						<div class="headeing pb-30">
+								<h2>CALL US NOW</h2>
 							</div>
-							<div class="contact-info">
-
-								<ul class="info">
-									<li>
-										<!-- <div class="icon ion-ios-location"></div> -->
-										<div class="content">
+							<!-- Contact FORM -->
+							<form class="contact-form " id="contact">
+								<!-- IF MAIL SENT SUCCESSFULLY -->
+								<!-- <div id="success">
+									
+								</div> -->
+								<!-- END IF MAIL SENT SUCCESSFULLY -->
+								<div class="row">
+									<div class="col-lg-5">
+										<div class="form-field">
+											<!-- <input class="input-sm form-full" id="name" type="text" name="form-name" placeholder="Your Name"> -->
 										<h3>027203019</h3>
 										<h5>
 												9 AM – 10PM (6/7)</h5>
@@ -376,33 +376,18 @@ Disinfection is almost a standard in hospitals and retirement homes
 											<!-- <input class="input-sm form-full" id="email" type="text" name="form-email" placeholder="Email" > -->
 										
 										</div>
-									</li>
-
-									<!-- <li>
-										<div class="icon ion-android-call"></div>
-										<div class="content">
-											<p>
-												200 256 265 000
-											</p>
-											<p>
-												200 256 265 000
-											</p>
+										<div class="form-field">
+											<!-- <input class="input-sm form-full" id="sub" type="text" name="form-subject" placeholder="Subject"> -->
 										</div>
-									</li>
-									<li>
-										<div class="icon ion-ios-email"></div>
-										<div class="content">
-											<p>
-												Support@yourmail.com
-											</p>
-											<p>
-												http://admin@.com
-											</p>
+									</div>
+									<div class="col-lg-1">
+										<div class="form-field">
+											<!-- <textarea class="form-full" id="message" rows="7" name="form-message" placeholder="Your Message" ></textarea> -->
 										</div>
-									</li> -->
-								</ul>
-								
-							</div>
+									</div>
+									
+								</div>
+							</form>
 						</div>
 
 					</div>

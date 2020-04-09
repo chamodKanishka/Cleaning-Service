@@ -271,7 +271,7 @@ CALL US 027203019
 								<!-- <img src="assets/images/cleaning-lady.svg" alt="" height="50" width="50" /> -->
 								<h3></h3>
 								<p>
-								Flexible 
+								Flexible <br>
 								& fast
 
 								</p>
@@ -291,7 +291,7 @@ CALL US 027203019
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 mt-sm-30">
-						<div class="clean_top mb-xs-30 feature-box">
+						<div class="clean_top mb-xs-30 mb-xs-30 feature-box">
 							<div class="content">
 								<!-- <img src="assets/images/clean.svg" alt="" height="50" width="50" /> -->
 								<h3></h3>
@@ -308,9 +308,9 @@ CALL US 027203019
 								<!-- <img src="assets/images/clean-1.svg" alt="" height="50" width="50" /> -->
 								<h3></h3>
 								<p>
-									Fully <br>
+									Fully
 									towards <br>
-									your<br>
+									your
 									needs
 								</p>
 							</div>
@@ -329,7 +329,6 @@ CALL US 027203019
 					<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
 						<div class="section-title_home">
 							<h2>Our Services</h2>
-							<span class="b-line"></span>
 							
 						</div>
 					</div>
@@ -355,7 +354,7 @@ CALL US 027203019
 										?>
 							<div class="service_box">
 								<figure>
-									<img src="<?php echo $products['image'];?>" alt=""  width="40" height="150"/>
+									<img src="<?php echo $products['image'];?>" alt=""  width="60" height="200"/>
 								</figure>
 								<h3><a href="<?php echo $products['website'];?>"><?php echo $products['ser_name'];?></a></h3>
 								<p>
@@ -381,7 +380,6 @@ CALL US 027203019
         <div class="col-md-5 col-lg-10">
 		<div class="headeing pb-30">
 								<h2>Request for offer:</h2>
-								<span class="b-line l-left line-h"></span>
 							</div>
           <!-- Contact FORM -->
           <form class="contact-form mt-45" id="contact" action="msg.php" method="POST">           
@@ -408,7 +406,7 @@ CALL US 027203019
 										<div class="form-field">
 										<div class="input-sm form-full">
 											<select id="servise">
-											<option value="Dropdown">Dropdown</option>
+											<option value="Dropdown">Select...</option>
 											<option value="Hospital">Hospital</option>
 											<option value="Supermarket">Supermarket</option>
 											<option value="Office">Office</option>
@@ -440,7 +438,6 @@ CALL US 027203019
 
 							<div class="headeing pb-30">
 								<h2>CALL US NOW</h2>
-								<!-- <span class="b-line l-left line-h"></span> -->
 							</div>
 							<!-- Contact FORM -->
 							<form class="contact-form " id="contact">
@@ -486,7 +483,6 @@ CALL US 027203019
 								<div class="row">
 								<h2>Where can you expect us?</h2>
 								<div>
-								<!-- <span class="b-line l-left line-h"></span> -->
 							</div>
 
 									<section class="padding ptb-xs-40">
