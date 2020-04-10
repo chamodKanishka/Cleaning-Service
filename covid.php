@@ -341,7 +341,7 @@
 						<div class="team_box img-scale">
 							<div class="team_picher">
 								<figure>
-									<img src="<?php echo $products['image'];?>" alt="" width ="100" height="80">
+									<img src="<?php echo $products['image'];?>" alt="" width ="30" height="180">
 								</figure>
 							</div>
 							

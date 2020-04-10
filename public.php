@@ -226,7 +226,7 @@ Disinfection is almost a standard in hospitals and retirement homes
 						<div class="team_box img-scale">
 							<div class="team_picher">
 								<figure>
-									<img src="<?php echo $products['image'];?>" alt=""width="150" height="150">
+									<img src="<?php echo $products['image'];?>" alt=""width="250" height="250">
 								</figure>
 							</div>
 							<div class="team_detail">

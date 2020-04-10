@@ -483,8 +483,8 @@ CALL US 027203019
 								<div>
 							</div>
 
-									<section class="padding ptb-xs-40">
-											<div class="container">
+									<section class="padding ptb-xs-60">
+											<div class="container" width="80" height="80">
 												
 
 										<div class="row">
@@ -506,11 +506,11 @@ CALL US 027203019
 													<div class="team_box img-scale">
 														<div class="team_picher">
 															<figure>
-																<img src="<?php echo $products['image'];?>" alt="" width ="100" height="80">
+																<img src="<?php echo $products['image'];?>" alt="" width ="50" height="180">
 															</figure>
 														</div>
 														
-														<div  width="200" height="80" border="1px solid blue">
+														<div  width="30" height="80" border="1px solid blue">
 															<p><?php echo $products['name'];?></P>
 														</div>
 													</div>
