@@ -6,6 +6,11 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="covid" content="keep clean" />
+		<meta name="cleaning services types" content="ceaning items," />
+		<meta name="cleaning request" content="request for cleanings" />
+		<meta name="customers" content="satisfaction" />
+		<meta name="desinfecto" content="cleaning service" />
 		<title>Desinfecto - Hygeine Matters </title>
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -74,7 +79,7 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->						
 						<div class="collapse navbar-collapse" id="navbar-menu">
 						
-						<a href="index-2.php"> <img src="assets/images/des.png" alt="Logo" width="180" height="90"> </a>
+						<a href="index-2.php"> <img src="assets/images/des.png" alt="Decinfecto Logo" width="180" height="90"> </a>
 						
 							<ul class="nav navbar-nav mobile-menu d-flex justify-content-between">
 								<li>

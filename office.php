@@ -6,6 +6,10 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Office clean" content="office cleaning services" />
+		<meta name="office toilets cleaning" content="office toilets cleaning services" />
+		<meta name="roof top, solar panel" content="rooftop and solar panel cleaning" />
+		<meta name="shopping cards" content="shopping cards" />
 		<title>Desinfecto - Hygeine Matters</title>
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
