@@ -345,7 +345,7 @@
 										
 										</div>
 										</div>
-                                        <input type="submit" id="submit" name="submit" value="SEND"/>
+                                        <input type="submit" value="SEND" name="submit"/>
 										</div>
 									</div>
 									<!-- <div class="col-lg-12 mt-30">
