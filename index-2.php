@@ -437,7 +437,7 @@ CALL US 027203019
 						<div class="col-lg-4">
 
 							<div class="headeing pb-30">
-								<h2>CALL US NOW</h2>
+							<h2>CALL US NOW</h2>
 							</div>
 							<!-- Contact FORM -->
 							<form class="contact-form " id="contact">
@@ -449,10 +449,8 @@ CALL US 027203019
 								<div class="row">
 									<div class="col-lg-5">
 										<div class="form-field">
-											<!-- <input class="input-sm form-full" id="name" type="text" name="form-name" placeholder="Your Name"> -->
-										<h3>027203019</h3>
-										<h5>
-												9 AM – 10PM (6/7)</h5>
+										<h2>027203019</h2>
+										<h5> 9AM–10PM (6/7)</h5>
 										</div>
 										<div class="form-field">
 											<!-- <input class="input-sm form-full" id="email" type="text" name="form-email" placeholder="Email" > -->

@@ -288,12 +288,8 @@
 									<div class="col-lg-5">
 										<div class="form-field">
 											<!-- <input class="input-sm form-full" id="name" type="text" name="form-name" placeholder="Your Name"> -->
-										<h3>027203019</h3>
-										</div>
-										<div class="form-field">
-											<!-- <input class="input-sm form-full" id="email" type="text" name="form-email" placeholder="Email" > -->
-										<h5>
-												9 AM – 10PM (6/7)</h5>
+											<h2>027203019</h2>
+										<h5> 9AM–10PM (6/7)</h5>
 										</div>
 										<div class="form-field">
 											<!-- <input class="input-sm form-full" id="sub" type="text" name="form-subject" placeholder="Subject"> -->
