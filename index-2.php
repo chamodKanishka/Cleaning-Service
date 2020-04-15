@@ -409,16 +409,16 @@ CALL US 027203019
 											<textarea class="form-full" id="message" rows="7" name="form-message" placeholder="Question" ></textarea>
                                         </div>
 										<div class="form-field">
-										<div class="input-sm form-full">
-											<select id="servise">
-											<option value="Dropdown">Select...</option>
-											<option value="Hospital">Hospital</option>
-											<option value="Supermarket">Supermarket</option>
-											<option value="Office">Office</option>
-											<option value="Public place">Public place</option>
-											</select>
+										<select id="servise" name="servise">
+											<option value="1">Select...</option>
+											<option value="2">Hospital</option>
+											<option value="3">Supermarket</option>
+											<option value="4">Office</option>
+											<option value="5">Public place</option>
+										</select>
+																				
+																				
 										
-										</div>
 										</div>
 										<div class="col-md-12 col-lg-12 mt-30">
 			  <input type="submit" value="SEND" name="submit">
